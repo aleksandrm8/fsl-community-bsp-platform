@@ -3,7 +3,7 @@
 
   <default sync-j="4" revision="master"/>
   
-  <remote fetch="ssh://orwell@dota:/git" name="fsl-release" />
+  <remote fetch="ssh://orwell@dota:/git/freescale_com" name="fsl-release" />
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="http://git.openembedded.org" name="oe"/>
