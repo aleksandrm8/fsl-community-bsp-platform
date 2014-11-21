@@ -6,6 +6,7 @@
   <remote fetch="ssh://orwell@dota:/git/freescale_com" name="fsl-release" />
   <remote fetch="ssh://orwell@dota:/git/yoctoproject" name="yocto"/>
   <remote fetch="ssh://orwell@dota:/git/freescale_github" name="freescale"/>
+  <remote fetch="ssh://orwell@dota:/git/" name="orwell"/>
   <remote fetch="http://git.openembedded.org" name="oe"/>
   <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="https://github.com/meta-qt5"  name="QT5"/>
@@ -25,6 +26,8 @@
   <project remote="freescale" revision="5a12677ad000a926d23c444266722a778ea228a7" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   
   <project remote="OSSystems" revision="c94a11b2f0811961f56b75c699f299d3d90ecf1a" name="meta-browser" path="sources/meta-browser" />
+  
+  <project remote="orwell" branch="release_1.0" name="meta-orwell" path="sources/meta-orwell" />
   
   <project remote="fsl-release" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="dora_3.10.17-1.0.2">
      <copyfile src="imx/tools/fsl-setup-release.sh" dest="fsl-setup-release.sh" />
