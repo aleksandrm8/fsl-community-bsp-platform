@@ -12,7 +12,7 @@
   <remote fetch="https://github.com/meta-qt5"  name="QT5"/>
 
   <project remote="yocto" revision="6d0a1893d1e2df20b62296ec2cc80924cbab8e90" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="8889b56635a95d69cdf95b27454268782d9c29bd" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="yocto" revision="e90a49aff5c0ba0d094928605e4306783263e9f4" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
   <project remote="oe" revision="ee173678383683e972c7d4d6f0ef5790bfa50274" name="meta-openembedded" path="sources/meta-openembedded"/>
 
